@@ -21,6 +21,12 @@ Icons:
 tar -xzf gruvbox-plus-icon-pack.5.3.1.tar.gz -d ~/.local/share/icons
 ```
 
+Lsd:
+
+```
+sudo apt install ~/.Downloads/lsd-musl_1.1.2_amd64.deb
+```
+
 Terminal Profile:
 
 ```
