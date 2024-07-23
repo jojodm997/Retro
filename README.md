@@ -27,6 +27,11 @@ Lsd:
 sudo apt install ~/.Downloads/lsd-musl_1.1.2_amd64.deb
 ```
 
+onefetch:
+```
+sudo apt install ~/.Downloads/onefetch_2.21.0_amd64.deb
+```
+
 Terminal Profile:
 
 ```
