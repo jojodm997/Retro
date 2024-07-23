@@ -46,3 +46,6 @@ Source:
 [Wallpaper](https://gruvbox-wallpapers.pages.dev/)
 [Icon Pack](https://github.com/SylEleuth/gruvbox-plus-icon-pack)
 [Theme](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme)
+[Lsd](https://github.com/lsd-rs/lsd)
+[onefetch](https://github.com/o2sh/onefetch)
+[Font](https://www.nerdfonts.com/font-downloads)
