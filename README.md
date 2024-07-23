@@ -44,7 +44,7 @@ curl -sS https://starship.rs/install.sh | sh
 
 Screenshot:
 
-[!Hello](https://github.com/jojodm997/Retro/blob/main/Screenshot%20from%202024-07-23%2019-45-07.png)
+![Hello](https://github.com/jojodm997/Retro/blob/main/Screenshot%20from%202024-07-23%2019-45-07.png)
 
 Source:
 
