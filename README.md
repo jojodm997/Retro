@@ -41,6 +41,9 @@ dconf load /org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d
 curl -sS https://starship.rs/install.sh | sh
 ```
 
+neovim config (nvchad)
+```git clone https://github.com/NvChad/starter ~/.config/nvim && nvim```
+
 
 Screenshot:
 
@@ -56,3 +59,4 @@ Source:
 [Lsd](https://github.com/lsd-rs/lsd)
 [onefetch](https://github.com/o2sh/onefetch)
 [Font](https://www.nerdfonts.com/font-downloads)
+[nvchad](https://nvchad.com/)
