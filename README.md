@@ -42,7 +42,9 @@ curl -sS https://starship.rs/install.sh | sh
 ```
 
 neovim config (nvchad)
-```git clone https://github.com/NvChad/starter ~/.config/nvim && nvim```
+```
+git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
+```
 
 
 Screenshot:
