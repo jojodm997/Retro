@@ -46,6 +46,8 @@ Screenshot:
 
 ![Hello](https://github.com/jojodm997/Retro/blob/main/Screenshot%20from%202024-07-23%2019-45-07.png)
 
+![Hello](https://github.com/jojodm997/Retro/blob/main/Screenshot%20from%202024-07-28%2022-50-53.png)
+
 Source:
 
 [Wallpaper](https://gruvbox-wallpapers.pages.dev/)
