@@ -37,9 +37,16 @@ Terminal Profile:
 ```
 dconf load /org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/ > material-theme-profile.dconf
 ```
+
+
 ```
 curl -sS https://starship.rs/install.sh | sh
 ```
+you can use starship or oh-my-posh
+```
+curl -s https://ohmyposh.dev/install.sh | bash -s
+```
+
 
 neovim config (nvchad)
 ```
@@ -62,3 +69,4 @@ Source:
 [onefetch](https://github.com/o2sh/onefetch)
 [Font](https://www.nerdfonts.com/font-downloads)
 [nvchad](https://nvchad.com/)
+[oh-my-posh](https://ohmyposh.dev)
