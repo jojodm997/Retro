@@ -127,9 +127,6 @@ export NVM_DIR="$HOME/.nvm"
 # homebrew
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-# starship ( I don't use starship anymore
-#eval "$(starship init bash)"
-
 # posh
 eval "$(oh-my-posh init bash --config ~/.config/posh/emo.omp.json)"
 
