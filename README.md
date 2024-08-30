@@ -39,9 +39,6 @@ dconf load /org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d
 ```
 
 
-```
-curl -sS https://starship.rs/install.sh | sh
-```
 oh-my-posh
 ```
 curl -s https://ohmyposh.dev/install.sh | bash -s
