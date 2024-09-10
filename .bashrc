@@ -76,8 +76,8 @@ esac
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='lsd'
-    #alias dir='dir --color=auto'
-    #alias vdir='vdir --color=auto'
+    alias dir='dir --color=auto'
+    alias vdir='vdir --color=auto'
 
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
@@ -88,9 +88,10 @@ fi
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
+alias lla='ls -la'
+alias la='ls -a'
+alias l='ls -l'
+alias lt='ls --tree'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -127,8 +128,12 @@ export NVM_DIR="$HOME/.nvm"
 # homebrew
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-# posh
+#posh
 eval "$(oh-my-posh init bash --config ~/.config/posh/emo.omp.json)"
 
 #nvim
 export PATH="$PATH:/opt/nvim-linux64/bin"
+
+#fzf and zoxide
+eval "$(fzf --bash)"
+eval "$(zoxide init bash)"
