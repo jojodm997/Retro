@@ -76,6 +76,14 @@ esac
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='lsd'
+    alias install='sudo apt install'
+    alias uninstall='sudo apt remove'
+    alias auto='sudo apt autoremove'
+    alias upgrade='sudo apt upgrade'
+    alias update='sudo apt update'
+    alias listup='apt list --upgradable'
+    alias clean='sudo apt autoclean'
+
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
