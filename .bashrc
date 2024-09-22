@@ -81,7 +81,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias auto='sudo apt autoremove'
     alias upgrade='sudo apt upgrade'
     alias update='sudo apt update'
-    alias listup='apt list --upgradable'
+    alias uplist='apt list --upgradable'
     alias clean='sudo apt autoclean'
 
     alias grep='grep --color=auto'
