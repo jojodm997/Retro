@@ -75,14 +75,16 @@ esac
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    alias ls='lsd'
+    alias ls='eza --icons'
     alias install='sudo apt install'
-    alias uninstall='sudo apt remove'
-    alias auto='sudo apt autoremove'
+    alias remove='sudo apt remove'
     alias upgrade='sudo apt upgrade'
     alias update='sudo apt update'
-    alias uplist='apt list --upgradable'
-    alias clean='sudo apt autoclean'
+    alias list='apt list --upgradable'
+
+    alias gcm='git commit -m'
+    alias clone='git clone'
+    alias zel='zellij'
 
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
@@ -121,6 +123,14 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+#rgem
+export PATH="$PATH:/home/linuxbrew/.linuxbrew/lib/ruby/gems/3.3.0/bin"
+
+#nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # homebrew
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
