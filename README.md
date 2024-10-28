@@ -21,12 +21,6 @@ Icons:
 tar -xzf gruvbox-plus-icon-pack.5.3.1.tar.gz -d ~/.local/share/icons
 ```
 
-Lsd:
-
-```
-sudo apt install ~/.Downloads/lsd-musl_1.1.2_amd64.deb
-```
-
 onefetch:
 ```
 sudo apt install ~/.Downloads/onefetch_2.21.0_amd64.deb
@@ -62,7 +56,6 @@ Source:
 [Wallpaper](https://gruvbox-wallpapers.pages.dev/)
 [Icon Pack](https://github.com/SylEleuth/gruvbox-plus-icon-pack)
 [Theme](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme)
-[Lsd](https://github.com/lsd-rs/lsd)
 [onefetch](https://github.com/o2sh/onefetch)
 [Font](https://www.nerdfonts.com/font-downloads)
 [nvchad](https://nvchad.com/)
