@@ -78,13 +78,16 @@ if [ -x /usr/bin/dircolors ]; then
     alias ls='eza --icons'
     alias install='sudo apt install'
     alias remove='sudo apt remove'
+    alias purge='sudo apt purge'
     alias upgrade='sudo apt upgrade'
     alias update='sudo apt update'
-    alias list='apt list --upgradable'
 
-    alias gcm='git commit -m'
+    alias ga='git add .'
+    alias gm='git commit'
+    alias push='git push'
     alias clone='git clone'
     alias zel='zellij'
+    alias matrix='cmatrix'
 
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
@@ -131,7 +134,7 @@ export PATH="$PATH:/home/linuxbrew/.linuxbrew/lib/ruby/gems/3.3.0/bin"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 #posh
-eval "$(oh-my-posh init bash --config ~/.config/posh/emo.omp.json)"
+eval "$(oh-my-posh init bash --config ~/.config/posh/emo.json)"
 
 #fzf and zoxide
 eval "$(fzf --bash)"
