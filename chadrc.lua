@@ -72,11 +72,6 @@ M.ui = {
   cmp = {
     style = "flat_dark"
   },
-
-  statusline = {
-    theme = "minimal",
-    separator_style = "block"
-  }
 }
 
 M.nvdash = {
