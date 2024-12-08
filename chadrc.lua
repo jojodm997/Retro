@@ -42,7 +42,7 @@ M.base46 = {
           orange = "#d65d0e",
           cyan = "#82b3a8",
           statusline_bg = "#1d2021",
-          lightbg = "#3d3d3d",
+          lightbg = "#282828",
           pmenu_bg = "#83a598",
           folder_bg = "#458588",
     },
@@ -71,7 +71,7 @@ M.base46 = {
 M.ui = {
   cmp = {
     style = "flat_dark"
-  },
+  }
 }
 
 M.nvdash = {
@@ -102,6 +102,5 @@ M.nvdash = {
 M.cheatsheet = {
   theme = "simple"
 }
-
 
 return M
