@@ -199,18 +199,6 @@ plugins {
     }
 }
 
-
-// Whether sessions should be serialized to the cache folder (including their tabs/panes, cwds and running commands) so that they can later be resurrected
-// Options:
-//   - true (default)
-//   - false
-//
-//   session_serialization true
-
-// Define color themes for Zellij
-// For more examples, see: https://github.com/zellij-org/zellij/tree/main/example/themes
-// Once these themes are defined, one of them should to be selected in the "theme" section of this file
-//
  themes {
      dracula {
          fg 248 248 242
@@ -248,13 +236,13 @@ plugins {
 
 // The name of the default layout to load on startup
 // Default: "default"
-//
-   default_layout "default"
+// default or compact
+   default_layout "compact"
 
 // Path to the default editor to use to edit pane scrollbuffer
 // Default: $EDITOR or $VISUAL
 //
-// scrollback_editor "/usr/bin/vim"
+   scrollback_editor "/home/linuxbrew/.linuxbrew/bin/nvim"
 
 // The folder in which Zellij will look for layouts
 //
@@ -264,3 +252,8 @@ plugins {
 //
 // theme_dir "/path/to/my/theme_dir"
 
+// Enable or disable automatic copy (and clear) of selection when releasing mouse
+// Default: true
+//
+   copy_on_select true
+   copy_command "xclip -selection clipboard"
