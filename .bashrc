@@ -76,19 +76,6 @@ esac
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='eza --icons'
-    alias install='sudo apt install'
-    alias remove='sudo apt remove'
-    alias purge='sudo apt purge'
-    alias upgrade='sudo apt upgrade'
-    alias update='sudo apt update'
-
-    alias ga='git add .'
-    alias gm='git commit'
-    alias push='git push'
-    alias clone='git clone'
-    alias zel='zellij'
-    alias matrix='cmatrix'
-
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
@@ -138,6 +125,5 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 #posh
 eval "$(oh-my-posh init bash --config ~/.config/posh/emo.json)"
 
-#fzf and zoxide
-eval "$(fzf --bash)"
+#zoxide
 eval "$(zoxide init bash)"
