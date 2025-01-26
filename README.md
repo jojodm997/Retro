@@ -7,23 +7,18 @@
 Themes:
 
 ```
-unzip Gruvbox-Dark-BL.zip -d ~/.themes
+wget -O Gruvbox-Dark.zip https://github.com/jojodm997/Retro/blob/main/Gruvbox-Dark-BL.zip && unzip Gruvbox-Dark.zip -d ~/.themes
 ```
 
 Fonts:
 
 ```
-unzip Go-Mono.zip -d ~/.fonts
+wget -O Go-Mono.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Go-Mono.zip && unzip Go-Mono.zip -d ~/.fonts
 ```
 Icons:
 
 ```
-tar -xzf gruvbox-plus-icon-pack.5.3.1.tar.gz -d ~/.local/share/icons
-```
-
-onefetch:
-```
-sudo apt install ~/.Downloads/onefetch_2.21.0_amd64.deb
+wget -O Gruvbox-Icons.zip https://github.com/SylEleuth/gruvbox-plus-icon-pack/releases/download/v6.1.1/gruvbox-plus-icon-pack-6.1.1.zip unzip Gruvbox-Icons.zip -d ~/.local/share/icons
 ```
 
 Terminal Profile:
