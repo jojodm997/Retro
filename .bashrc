@@ -114,8 +114,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export MANPAGER='nvim +Man!'
-
 #rgem
 export PATH="$PATH:/home/linuxbrew/.linuxbrew/lib/ruby/gems/3.3.0/bin"
 
