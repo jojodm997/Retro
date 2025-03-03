@@ -75,6 +75,7 @@ esac
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='eza --icons'
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
@@ -82,6 +83,12 @@ fi
 
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+
+# some more ls aliases
+alias lla='ls -la'
+alias la='ls -a'
+alias l='ls -l'
+alias lt='ls --tree'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -106,3 +113,15 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+#rgem
+export PATH="$PATH:/home/linuxbrew/.linuxbrew/lib/ruby/gems/3.3.0/bin"
+
+# homebrew
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+#posh
+eval "$(oh-my-posh init bash --config ~/.config/posh/emo.json)"
+
+#zoxide
+eval "$(zoxide init bash)"
