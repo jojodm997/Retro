@@ -40,8 +40,6 @@
     
    pane_frames true
         
-   default_shell "fish"
-
 // Path to the default editor to use to edit pane scrollbuffer
 // Default: $EDITOR or $VISUAL
 //
