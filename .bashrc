@@ -114,9 +114,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-#rgem
-export PATH="$PATH:/home/linuxbrew/.linuxbrew/lib/ruby/gems/3.3.0/bin"
-
 # homebrew
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
